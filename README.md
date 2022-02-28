@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @Malak-Jazzazi
+- 👀 I’m interested in coding and programming
+- 🌱 I’m currently learning front end programming
+- 📫 you can reach me on mjazzazi98@gmail.com
