@@ -1,0 +1,45 @@
+html{
+	font-size: 17px;
+}
+body{
+    background: linear-gradient(180deg, lightblue, cyan);
+}
+.container {
+	box-shadow: 0 0 10px #111;
+	min-height: 600px;
+	background-color: #fff;
+}
+
+
+.top{
+	font-size: 3rem;
+	line-height: 50px;
+	font-family: Poiret One;
+}
+hr{
+	color: #c3c3c3;
+}
+
+
+img{
+	width: 100%;
+}
+h2{
+	font-size: 2rem;
+	font-family: Poiret One;
+}
+
+th{
+	width: 20%;
+	text-align-last: right;
+	padding-top: 30px;
+}
+td{
+	padding-left: 30px;
+	padding-top: 30px;
+}
+
+p:last-child{
+	font-size: 1.5rem;
+	margin-top: 50px;
+}
