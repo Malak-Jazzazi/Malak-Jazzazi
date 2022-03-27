@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="ribbon"></div>
+    <div class="container">
+        <header class="text-center">
+
+            <h1>SURVEY FORM</h1>
+            <p>an anonymous survey of thousands of people who recently started coding</p>
+        </header>
+        <main>
+            <h2>Personal Details</h2>
+            <form action="#">
+                <label for="name" class="bold">Name <span class="text-danger">*</span></label>
+                <input class="col-12 style" type="text" id="name" placeholder="Enter your Name" required>
+                <div class="row">
+                    <label class="col-8 bold" for="email">Email <span class="text-danger">*</span></label>
+                    <label class="col-4 bold" for="year">Year <span class="text-danger">*</span></label>
+                </div>
+
+                <div class="row mx-0 justify-content-between">
+                    <input class="col-7 style" type="email" id="email" placeholder="Enter your Email" required>
+                    <input class="col-4 style" type="number" max="2020" min="1900" id="year"
+                        placeholder="Enter your birth-year" required>
+                </div>
+
+                <div class="row">
+                    <label class="col-md-7 bold" for="country">country <span class="text-danger">*</span></label>
+                    <label class="col-md-5 bold" for="city">city</label>
+                </div>
+
+                <div class="row mx-0 justify-content-between">
+                    <select class="col-md-6 style" name="country" id="country" required>
+                        <option value="1" selected>Jordan</option>
+                        <option value="1" selected>Egypt</option>
+                        <option value="1" selected>Lebanon</option>
+                        <option value="1" selected>Iraq</option>
+                        <option value="1" selected>Saudia</option>
+                    </select>
+                    <input class="col-md-5 style" type="text" id="city" placeholder="Enter your city">
+                </div>
+
+                <h2>Survey Questions</h2>
+
+                <label for="role" class="bold">Which option best describes your current role? <span
+                        class="text-danger ">*</span></label>
+                <select class="style w-100 " name="role" id="role" required>
+                    <option value="1" selected>student</option>
+                    <option value="1" selected>full time job</option>
+                    <option value="1" selected>full time learner</option>
+                    <option value="1" selected>prefer not to say</option>
+                    <option value="1" selected>other</option>
+                </select>
+
+
+                <p>Are you already working as a software developer?</p>
+                <input type="radio" id="yes" name="radio">
+                <label for="yes">Yes</label>
+                <br>
+                <input type="radio" id="no" name="radio">
+                <label for="no">No</label>
+
+                <p>Which one of these roles are you most interested in?</p>
+                <input type="radio" id="Front" name="radio1">
+                <label for="Front">Front-End Web Developer</label>
+                <br>
+                <input type="radio" id="Back" name="radio1">
+                <label for="Back">Back-End Web Developer</label>
+                <br>
+                <input type="radio" id="Mobile" name="radio1">
+                <label for="Mobile">Mobile Developer</label>
+                <br>
+                <input type="radio" id="Quality" name="radio1">
+                <label for="Quality">Quality Assurance Engineer</label>
+                <br>
+                <input type="radio" id="Full-Stack" name="radio1">
+                <label for="Full-Stack"> Full-Stack Web Developer </label>
+                <br>
+                <input type="radio" id="Full-Stack" name="radio1">
+                <label for="Full-Stack"> <input type="text" for="Full-Stack" placeholder="Other" class="style"></label>
+
+
+                <p>Programming language you know</p>
+                <input type="checkbox" id="html">
+                <label for="html">HTML / CSS</label>
+                <br>
+                <input type="checkbox" id="js">
+                <label for="js">JavaScript</label>
+                <br>
+                <input type="checkbox" id="Java">
+                <label for="Java">Java</label>
+                <br>
+                <input type="checkbox" id="Ruby">
+                <label for="Ruby">Ruby</label>
+                <br>
+                <input type="checkbox" id="Python">
+                <label for="Python">Python</label>
+                <br>
+                <input type="checkbox" id="C++">
+                <label for="C++">C++</label>
+                <br>
+                <label for="Comments" class="bold">Any Comments or Suggestions?</label>
+                <textarea name="Comments" id="Comments" cols="30" rows="10" class="style w-100"></textarea>
+
+
+                <button>Submit</button>
+            </form>
+
+        </main>
+
+    </div>
+</body>
+
+</html>
