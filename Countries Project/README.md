@@ -25,4 +25,4 @@ https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicode
 but actually it have to be    
 https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialCode
 
-this typo leads to inability getting Dialcode
+this typo leads inability getting Dialcode
