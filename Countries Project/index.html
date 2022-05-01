@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COUNTRIES & CITIES</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h1>COUNTRIES</h1>
+        <h5>Please chose which value you like to hide</h5>
+
+        <head class="checkboxes">
+            <ul class="check-container">
+                <li>
+                    <label for="currency" class="check">
+                        Currency
+                        <input type="checkbox" id="currency" onchange="hide_show_table(this.id)">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="dialcode" class="check">
+                        Dialcode
+                        <input type="checkbox" id="dialcode" onchange="hide_show_table(this.id)">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="unicodeFlag" class="check">
+                        UnicodeFlag
+                        <input type="checkbox" id="unicodeFlag" onchange="hide_show_table(this.id)">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+                <li>
+                    <label for="flag" class="check">
+                        Flag
+                        <input type="checkbox" id="flag" onchange="hide_show_table(this.id)">
+                        <span class="checkmark"></span>
+                    </label>
+                </li>
+            </ul>
+        </head>
+
+        <main class="data">
+            <table>
+                <thead>
+                    <tr>
+                        <th>countries</th>
+                        <th class="currency">Currency</th>
+                        <th class="dialcode">Dialcode</th>
+                        <th class="unicodeFlag">UnicodeFlag</th>
+                        <th class="flag">Flag</th>
+                    </tr>
+                </thead>
+                <tbody class="add">
+
+                </tbody>
+            </table>
+        </main>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>
