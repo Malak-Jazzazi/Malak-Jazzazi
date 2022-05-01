@@ -20,7 +20,7 @@ In the table , I used the way to show all the information ,and I looked for a co
 
 ______________________________________
 also I have noticed that in the documentaton of the API there is a typo in request example 
-they used /br
+they used
 https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialcode
 but actually it have to be    
 https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialCode
