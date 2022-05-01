@@ -19,8 +19,10 @@ ______________________________________
 In the table , I used the way to show all the information ,and I looked for a code that would help me to hide columns and I have found one and modified it to be suitable for my program
 
 ______________________________________
-also I have noticed that in the documentaton of the API there is a typo the request example 
-the href they used in  https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialcode
-but actually in is     https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialCode
+also I have noticed that in the documentaton of the API there is a typo in request example 
+they used
+https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialcode
+but actually it have to be    
+https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialCode
 
 this typo leads to inability to get Dial code
