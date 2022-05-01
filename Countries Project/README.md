@@ -16,4 +16,11 @@ I have tried to add capital, but I could not because
 -my data viewed as table but if I had put them as bullets, I could add it
 -the filter did not include capital
 ______________________________________
-In the table , I used the way to show all the information ,and I liked for a code that would help me to hide columns and I have found one and modified it to be suitable for my program
+In the table , I used the way to show all the information ,and I looked for a code that would help me to hide columns and I have found one and modified it to be suitable for my program
+
+
+also I have noticed that in the documentaton of the API there is a typo the request example 
+the href they used in  https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialcode
+but actually in is     https://countriesnow.space/api/v0.1/countries/info?returns=currency,flag,unicodeFlag,dialCode
+
+this typo leads to inability to get Dial code
